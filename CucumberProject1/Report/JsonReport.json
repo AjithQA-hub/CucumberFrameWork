@@ -1,0 +1,199 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To create new account",
+        "description": "",
+        "id": "to-validate-the-account-creation-of-fb-application;to-create-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20939353200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the browser and maximize the window",
+            "match": {
+              "location": "FbRegistration.to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4386000700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch url of fb application",
+            "match": {
+              "location": "FbRegistration.to_launch_url_of_fb_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 850540500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click the create new account button",
+            "match": {
+              "location": "FbRegistration.to_click_the_create_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4470760900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To pass the firstname in firstname text box",
+            "match": {
+              "location": "FbRegistration.to_pass_the_firstname_in_firstname_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname1",
+                  "Samuel"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname2",
+                  "janani"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname3",
+                  "Nathiya"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname4",
+                  "Ajith"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142966600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To pass the secondname in secondname text box",
+            "match": {
+              "location": "FbRegistration.to_pass_the_secondname_in_secondname_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186954400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To pass mobileno or email in email text box",
+            "match": {
+              "location": "FbRegistration.to_pass_mobileno_or_email_in_email_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password1",
+                  "password2",
+                  "password3"
+                ]
+              },
+              {
+                "cells": [
+                  "ajith!2233",
+                  "ajith123422@#",
+                  "9#003486"
+                ]
+              },
+              {
+                "cells": [
+                  "ajithnathiya@234",
+                  "900348765@",
+                  "bbasjsx"
+                ]
+              },
+              {
+                "cells": [
+                  "jhcuisdhi",
+                  "jsjsadhshsd",
+                  "jsfhu#45dshh"
+                ]
+              },
+              {
+                "cells": [
+                  "kasdjashds",
+                  "jsadhuisdh",
+                  "hdsa6$dga"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151790600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "To create new password using new password text box",
+            "match": {
+              "location": "FbRegistration.to_create_new_password_using_new_password_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 714659800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "FbRegistration.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the account creation of fb application",
+    "description": "",
+    "id": "to-validate-the-account-creation-of-fb-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/SampleFB.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
